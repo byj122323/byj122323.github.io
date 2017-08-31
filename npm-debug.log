@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'uninstall',
+1 verbose cli   '-g',
+1 verbose cli   'hexo-cli' ]
+2 info using npm@5.3.0
+3 info using node@v6.10.3
+4 verbose stack /usr/local/lib/node_modules/npm/node_modules/request/node_modules/tough-cookie/lib/pubsuffix.js:96
+4 verbose stack {"ac":true,"com.ac":true,"edu.ac":true,"gov.ac":true,"net.ac":true,"mil.ac":true,"org.ac":true,"ad":true,"nom.ad":true,"ae":true,"co.ae":true,"net.ae":true,"org.ae":true,"sch.ae":true,"ac.ae":true,"gov.ae":true,"mil.ae":true,"aero":true,"accident-investigation.aero":true,"accident-prevention.aero":true,"aerobatic.aero":true,"aeroclub.aero":true,"aerodrome.aero":true,"agents.aero":true,"aircraft.aero":true,"airline.aero":true,"airport.aero":true,"air-surveillance.aero":true,"airtraffic.aero":true,"air-traffic-control.aero":true,"ambulance.aero":true,"amusement.aero":true,"association.aero":true,"author.aero":true,"ballooning.aero":true,"broker.aero":true,"caa.aero":true,"cargo.aero":true,"catering.aero":true,"certification.aero":true,"championship.aero":true,"charter.aero":true,"civilaviation.aero":true,"club.aero":true,"conference.aero":true,"consultant.aero":true,"consulting.aero":true,"control.aero":true,"co
+4 verbose stack SyntaxError: Invalid or unexpected token
+4 verbose stack     at createScript (vm.js:56:10)
+4 verbose stack     at Object.runInThisContext (vm.js:97:10)
+4 verbose stack     at Module._compile (module.js:542:28)
+4 verbose stack     at Object.Module._extensions..js (module.js:579:10)
+4 verbose stack     at Module.load (module.js:487:32)
+4 verbose stack     at tryModuleLoad (module.js:446:12)
+4 verbose stack     at Function.Module._load (module.js:438:3)
+4 verbose stack     at Module.require (module.js:497:17)
+4 verbose stack     at require (internal/module.js:20:19)
+4 verbose stack     at Object.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/node_modules/tough-cookie/lib/cookie.js:34:17)
+5 verbose cwd /Users/buyongjun/Documents/blog/byj122323.github.io/source
+6 error Darwin 16.3.0
+7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "uninstall" "-g" "hexo-cli"
+8 error node v6.10.3
+9 error npm  v5.3.0
+10 error Invalid or unexpected token
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
